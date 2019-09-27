@@ -1,0 +1,27 @@
+.jumbotron {
+    border: solid black 10px;
+    border-radius: 10px;
+    background-color: beige;
+}
+
+#start {
+    background-color: black;
+    color: beige;
+    padding: 10px;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+#game {
+    padding: 20px;
+}
+
+.btn {
+    margin: 20px;
+    background-color: black;
+    color: beige;
+}
