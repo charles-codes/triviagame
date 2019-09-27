@@ -112,7 +112,7 @@ $(document).ready(function(){
         trivia.result = false;
         clearInterval(trivia.timerId);
         resultId = setTimeout(trivia.guessResult, 1000);
-        $('#results').html('<h3>Out of time! The answer was '+ Object.values(trivia.answers)[trivia.currentSet] +'</h3>');
+        $('#results').html('<h3>The shot clock expires! The answer was '+ Object.values(trivia.answers)[trivia.currentSet] +'</h3>');
       }
 
       else if(trivia.currentSet === Object.keys(trivia.questions).length){
