@@ -1,7 +1,12 @@
 .jumbotron {
     border: solid black 10px;
     border-radius: 10px;
-    background-color: beige;
+    background-image: url("../images/bg-court.jpg");
+}
+
+body {
+    background-image: url("../images/nbajamcourt.png");
+    background-size: cover;
 }
 
 #start {
