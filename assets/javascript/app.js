@@ -15,7 +15,7 @@ $(document).ready(function(){
     timer: 20,
     timerOn: false,
     timerId : '',
-   
+    
     questions: {
       q1: 'Who invented the game of basketball?',
       q2: 'What former player is now immortalized in the NBA logo?',
@@ -41,7 +41,7 @@ $(document).ready(function(){
       q9: ['Oklahoma City Thunder', 'New Orleans Pelicans', 'Toronto Rapters', 'Memphis Grizzlies'],
       q10: ['LeBron James', 'Tim Duncan', 'Kawhi Leonard', 'Michael Jordan']
     },
-   
+
     answers: {
       q1: 'James Naismith',
       q2: 'Jerry West',
@@ -79,7 +79,7 @@ $(document).ready(function(){
     nextQuestion : function(){
       
       trivia.timer = 25;
-       $('#timer').removeClass('last-seconds');
+      $('#timer').removeClass('last-seconds');
       $('#timer').text(trivia.timer);
       
       if(!trivia.timerOn){
@@ -169,7 +169,6 @@ $(document).ready(function(){
       $('#results h3').remove();
       
       trivia.nextQuestion();
-       
     }
   
   }
