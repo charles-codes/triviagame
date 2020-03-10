@@ -15,7 +15,7 @@ $(document).ready(function(){
     timer: 20,
     timerOn: false,
     timerId : '',
-    
+
     questions: {
       q1: 'Who invented the game of basketball?',
       q2: 'What former player is now immortalized in the NBA logo?',
@@ -145,7 +145,7 @@ $(document).ready(function(){
         
         trivia.correct++;
         clearInterval(trivia.timerId);
-        resultId = setTimeout(trivia.guessResult, 1000);
+        resultId = setTimeout(trivia.guessResult, 1500);
         $('#results').html('<h3>Correct Answer!</h3>');
       }
       // else the user picked the wrong option, increment incorrect
@@ -155,8 +155,8 @@ $(document).ready(function(){
         
         trivia.incorrect++;
         clearInterval(trivia.timerId);
-        resultId = setTimeout(trivia.guessResult, 1000);
-        $('#results').html('<h3>Better get back in the gym! '+ currentAnswer +'</h3>');
+        resultId = setTimeout(trivia.guessResult, 3000);
+        $('#results').html('<h3>WRONG! The correct answer is ' + currentAnswer + '.</h3><h3>Better get back in the gym!</h3>');
       }
       
     },
