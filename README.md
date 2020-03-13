@@ -15,7 +15,7 @@ Open the web application in your preferred browser (a lot of devs like Google Ch
 
 TECH STACK:
 
-NBA Trivia Game uses HTML5, CSS3, Bootstrap, JavaScript, and jQuery
+NBA Trivia Game uses HTML5, CSS3, Bootstrap, JavaScript, and jQuery.
 
 =================================================
 
