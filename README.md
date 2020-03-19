@@ -26,6 +26,12 @@ https://mchellagnarls.github.io/triviagame/
 
 =================================================
 
+SCREENCAPS:
+
+![NBA TRIVIA GAME](nbatriviagame.png)
+
+=================================================
+
 Created by Charles Tuggle. 
 
 GitHub Profile: https://github.com/mchellagnarls
