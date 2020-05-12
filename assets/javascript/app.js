@@ -1,6 +1,7 @@
 $(document).ready(function(){
   
     $("#remaining-time").hide();
+    $("#shotclock").hide();
     $("#start").on('click', trivia.startGame);
     $(document).on('click' , '.option', trivia.guessChecker);
     
@@ -71,6 +72,8 @@ $(document).ready(function(){
       $('#start').hide();
   
       $('#remaining-time').show();
+
+      $('#shotclock').show();
       
       trivia.nextQuestion();
       
